@@ -1966,7 +1966,8 @@ ul.icons {
     position: relative;
     z-index: 3; }
     #banner > .inner > :last-child {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+    margin-top: 10px; }
   #banner h1 {
     font-size: 4rem;
     margin-bottom: 1rem; }
@@ -2873,4 +2874,21 @@ border-radius: 8px;
   line-height: 7px;
   text-size-adjust: 100%;
   color: #3d3c3c;
+}
+
+.inner .special h2{
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+#cta .inner {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#cta .inner h2{
+  font-size: 40px;
+  font-weight: 700;
+  
 }
