@@ -1817,11 +1817,11 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 47rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
-  text-align: center;
+  text-align: left;
   width: 100%; }
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
@@ -1969,7 +1969,7 @@ ul.icons {
       margin-bottom: 0;
     margin-top: 10px; }
   #banner h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem; }
   #banner p {
     font-size: 1.5rem; }
@@ -2884,7 +2884,7 @@ border-radius: 8px;
 #cta .inner {
   font-size: 20px;
   font-weight: 400;
-  color: white;
+  color: rgba(255, 255, 255, 0);
 }
 
 #cta .inner h2{
@@ -2892,3 +2892,62 @@ border-radius: 8px;
   font-weight: 700;
   
 }
+
+.glow-on-hover {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(90deg, rgba(2,0,36,1) 11%, rgba(0,0,108,1) 28%, rgba(0,0,10,1) 54%, rgba(0,4,113,1) 82%, rgba(0,0,0,1) 100%);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 5px;
+}
+
+.glow-on-hover:active {
+  color: rgb(0, 0, 0)
+}
+
+.glow-on-hover:active:after {
+  background: rgb(0, 0, 0);
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
