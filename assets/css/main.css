@@ -1797,8 +1797,8 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1811,7 +1811,7 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  /* background-image: url("../../images/banner.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2000,7 +2000,7 @@ ul.icons {
     -webkit-transition-delay: 1.25s;
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
-    background: #111111;
+    background: #ffffff;
     content: '';
     display: block;
     height: 100%;
@@ -2908,7 +2908,7 @@ border-radius: 8px;
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(90deg, rgba(2,0,36,1) 11%, rgba(0,0,108,1) 28%, rgba(0,0,10,1) 54%, rgba(0,4,113,1) 82%, rgba(0,0,0,1) 100%);
+  background:  linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
   left:-2px;
