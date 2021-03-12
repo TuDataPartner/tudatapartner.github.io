@@ -13,6 +13,7 @@
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-a11y="true"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
 	</head>
 
@@ -40,11 +41,7 @@
 		<!-- Header -->
 			<header id="header">
 				<!-- <img src="images/tdp.png" alt="" width="220" height="30"> -->
-				<a class="logo" href="index.html">Tu Data Partner </a>
-
-				
-				
-				
+				<a class="logo" href="index.html">Tu Data Partner </a>				
 				
 				<nav>
 					<a href="#menu">Menu</a>
@@ -70,7 +67,7 @@
 					<img src="images/tdp.png" alt="" width="550" height="90">
 					<!-- <h1>Tu Data Partner</h1> -->
 					<p>Le damos valor a tu información mediante la ciencia de datos. <br />Aceleramos el análisis de la información con la automatización <br />de reportes y la inferencia estadística detallada.  <br /></p>
-					<button class="glow-on-hover" type="button"><i class="fas fa-arrow-down"></i> Ver más</button>
+					<button class="glow-on-hover" type="button" ><i class="fas fa-arrow-down"></i> Ver más</button>
 					
 				</div>
 
@@ -78,7 +75,13 @@
 				<video autoplay loop muted playsinline src="images/banner.png"></video>
 			</section>
 
-			
+			<script>
+$(".glow-on-hover").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".wrapper").offset().top},
+        'slow');
+});
+			</script>
 
 		<!-- Highlights -->
 			<section class="wrapper">
