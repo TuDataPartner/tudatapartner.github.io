@@ -15,6 +15,26 @@
 	</head>
 	<body class="is-preload">
 
+
+		<div class='spinner-wrapper'>
+		
+			<div class="spinner"></div>
+		<script>
+			let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+			window.addEventListener('unload', function () {
+				$(spinnerWrapper).fadeIn("slow");
+			});
+		
+			window.addEventListener('load', function () {
+				$(spinnerWrapper).fadeOut("slow");
+			});
+		</script>
+		
+		<body class="is-preload">        
+	
+	</div>
+
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="index.html">Tu Data Partner</a>

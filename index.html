@@ -15,15 +15,34 @@
 		<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-a11y="true"></script>
 
 	</head>
-	<body class="is-preload">                                                          
 
 
-
+	<div class='spinner-wrapper'>
 		
+		<div class="spinner"></div>
+	<script>
+		let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+
+		window.addEventListener('beforeunload', function () {
+				$(spinnerWrapper).fadeIn("slow");
+			});
+	
+		window.addEventListener('load', function () {
+			$(spinnerWrapper).fadeOut("slow");
+		});
+	</script>
+	
+	<body class="is-preload">        
+
+</div>
+
 		<!-- Header -->
 			<header id="header">
 				<!-- <img src="images/tdp.png" alt="" width="220" height="30"> -->
 				<a class="logo" href="index.html">Tu Data Partner </a>
+
+				
 				
 				
 				
@@ -32,6 +51,8 @@
 					
 				</nav>
 			</header>
+
+		
 
 		<!-- Nav -->
 			<nav id="menu">
@@ -52,8 +73,12 @@
 					<button class="glow-on-hover" type="button"><i class="fas fa-arrow-down"></i> Ver más</button>
 					
 				</div>
+
+				
 				<video autoplay loop muted playsinline src="images/banner.png"></video>
 			</section>
+
+			
 
 		<!-- Highlights -->
 			<section class="wrapper">
