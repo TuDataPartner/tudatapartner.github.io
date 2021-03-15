@@ -3051,7 +3051,7 @@ display: block;
 .formulario-contacto form button,
 .formulario-contacto form textarea{
   width:100%;
-  padding: .7em;
+  padding: .4em;
   background: none;
 }
 .formulario-contacto form button{
@@ -3078,7 +3078,7 @@ grid-column: 1/3;
 .formulario-contacto form button:hover,
 .formulario-contacto form button:focus{
   background:#ffffff;
-  color: #ffffff;
+  color: #ff6e00;
   transition: background-color 1s ease-out ;
   outline: 0;
 }
@@ -3130,4 +3130,8 @@ font-weight: 400;
 }
 .formulario-contacto{
   padding-right: 100px;
+}
+
+.formulario-contacto form button{
+  padding-top: 3px;
 }
