@@ -49,26 +49,26 @@
 
 					<div class="contacto-wrapper">
 						<div class="formulario-contacto">
-							<form action="">
+							<form action="correo.php" method="POST">
 								<p>
 									<label> Nombre Completo</label>
-									<input type="text" name="nombrecompleto">
+									<input type="text" name="nombrecompleto" required>
 								</p>
 								<p>
 									<label> Email</label>
-									<input type="email" name="email">
+									<input type="email" name="email" required>
 								</p>
 								<p>
 									<label> Teléfono</label>
-									<input type="tel" name="telefono">
+									<input type="tel" name="telefono" required>
 								</p>
 								<p>
 									<label> Motivo</label>
-									<input type="text" name="affair">
+									<input type="text" name="affair" required>
 								</p>
 								<p class="fijo">
 									<label> Mensaje</label>
-									<textarea name="mensaje" id="" cols="30" rows="3"></textarea>
+									<textarea name="mensaje" id="" cols="30" rows="3" required></textarea>
 								</p>
 								<p class="fijo">
 									<button type="submit">
