@@ -3112,13 +3112,14 @@ padding: .5em;
 }
 .info-contacto h4{
 padding-top: 20px;
-font-size: 25px;
+font-size: 30px;
 font-weight: 400;
 }
 
 .info-contacto{
   padding-top: 50px;
   padding-bottom: 0px;
+  font-size: 20px;
 }
 
 .contacto .logocontacto span{
@@ -3134,4 +3135,27 @@ font-weight: 400;
 
 .formulario-contacto form button{
   padding-top: 3px;
+}
+.formulario-contacto label{
+  margin-bottom: 5px;
+  
+}
+.formulario-contacto form button:focus{
+  color: #ff6e00;
+  background-color: #ff6e00;
+}
+.formulario-contacto form button:hover{
+ 
+  background-color: #cccbcb;
+
+}
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.plain .celu{
+font-family: sans-serif;
+font-weight: 5px;
 }
