@@ -3098,11 +3098,6 @@ padding: .5em;
 
 }
 
-/* large screen */
-@media (min-width: 700px){
-  body{
-    padding: 0 4rem;
-  }
 
   .contacto-wrapper{
     display: grid;
