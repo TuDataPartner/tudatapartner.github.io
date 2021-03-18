@@ -1,8 +1,4 @@
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 (function($) {
 
 	var	$window = $(window),
@@ -42,4 +38,19 @@
 				side: 'right'
 			});
 
-})(jQuery);
+
+			// Spinner Wrapper 
+			let spinnerWrapper = document.querySelector('.spinner-wrapper');
+		window.addEventListener('load', function () {
+			
+			$(spinnerWrapper).fadeOut("slow");
+		});
+
+
+			
+
+})
+
+
+
+(jQuery);
