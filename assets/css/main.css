@@ -2978,7 +2978,7 @@ display: block;
   .spinner-wrapper{
     width: 100%;
     height: 100%;
-    background-color: #151515;
+    background-color: #ffffff;
     position: absolute;
     top: 0;
     left: 0;
@@ -3005,13 +3005,13 @@ display: block;
 .spinner:before {
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(90deg, #ff7b00 0%,#030000 100% );
+    background-image:linear-gradient(90deg, #ff7b00 0%,#ffffff 100% );
     animation: spin .5s infinite linear;
 }
 .spinner:after {
     width: 90%;
     height: 90%;
-    background-color: #151515;
+    background-color: #ffffff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -3110,7 +3110,7 @@ padding: .5em;
     grid-template-columns: 2fr 1fr;
     padding: 2em;
   }
-}
+
 .info-contacto h4{
 padding-top: 20px;
 font-size: 30px;

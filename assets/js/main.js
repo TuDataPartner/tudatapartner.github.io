@@ -43,6 +43,7 @@
 			let spinnerWrapper = document.querySelector('.spinner-wrapper');
 		window.addEventListener('load', function () {
 			
+			
 			$(spinnerWrapper).fadeOut("slow");
 		});
 
@@ -72,7 +73,7 @@ $('#menu').on("click", "a", function () {
         return;
     }
     // now, fadeout the html (whole page)
-    $("html").fadeOut(function () {
+    $("body").fadeOut(function () {
         // when the animation is complete, set the new location
         location = newUrl;
     });
