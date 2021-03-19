@@ -3221,3 +3221,16 @@ body, input, select, textarea {
   .formulario-contacto{
     padding-right: 15px;
   }
+
+  .inner .highlights{
+    justify-content: space-around;
+    
+  }
+
+  .inner .highlights .content{
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  
