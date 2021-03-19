@@ -52,23 +52,23 @@
 							<form action="correo.php" method="POST">
 								<p>
 									<label> Nombre y Apellido</label>
-									<input type="text" name="nombrecompleto" required>
+									<input type="text" name="nombrecompleto" required maxlength="50">
 								</p>
 								<p>
 									<label> Email</label>
-									<input type="email" name="email" required>
+									<input type="email" name="email" required maxlength="50">
 								</p>
 								<p>
 									<label>Número de Teléfono</label>
-									<input type="tel" name="telefono" required>
+									<input type="tel" name="telefono" required maxlength="12" minlength="9">
 								</p>
 								<p>
 									<label>Motivo del Mensaje</label>
-									<input type="text" name="affair" required>
+									<input type="text" name="affair" required maxlength="50">
 								</p>
 								<p class="fijo">
 									<label>Mensaje</label>
-									<textarea name="mensaje" id="" cols="30" rows="3" required></textarea>
+									<textarea name="mensaje" id="" cols="30" rows="3" required maxlength="1000"></textarea>
 								</p>
 								<p class="fijo">
 									<button type="submit">
