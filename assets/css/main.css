@@ -3224,6 +3224,14 @@ body, input, select, textarea {
 
   .inner .highlights{
     justify-content: space-around;
+    
   }
 
- 
+  .inner .highlights .content{
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  
+  
