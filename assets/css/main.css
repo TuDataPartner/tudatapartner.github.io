@@ -2913,6 +2913,13 @@ border-radius: 8px;
 }
 
 
+.responsive_icon {
+  width: 100%;
+  height: auto;
+  max-width:100px;
+}
+
+
 .glow-on-hover {
   width: 200px;
   height: 50px;
