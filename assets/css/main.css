@@ -2882,8 +2882,9 @@ border-radius: 8px;
 }
 
 .inner .special h2{
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: 40px;
+  font-weight: 400;
 }
 
 #cta .inner {
@@ -3025,9 +3026,16 @@ display: block;
 }
 
 .inner .special h3{
-  margin-top: 150px;
+  margin-top: 50px;
   font-size: 40px;
+  font-weight: 400;
 }
+.inner .special p{
+  margin-bottom: 150px;
+  
+}
+
+
 .logocontacto{
   text-align: center;
   margin-top: 50px;
@@ -3350,3 +3358,5 @@ background: #ff6f003a
 .testimonials section{
   justify-content: center;
 }
+.separadorequipo {border: 0; height: 0; box-shadow: 0 1px 5px 1px #ff6e00;}
+
