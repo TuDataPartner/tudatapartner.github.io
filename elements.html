@@ -29,7 +29,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Inicio</a></li>
-					<li><a href="generic.html">Quienes Somos</a></li>
+					<li><a href="generic.html">Nosotros</a></li>
 					<li><a href="servicios.html">Servicios</a></li>
 					<li><a href="elements.html">Contacto</a></li>
 				</ul>
@@ -49,26 +49,26 @@
 
 					<div class="contacto-wrapper">
 						<div class="formulario-contacto">
-							<form action="correo.php" method="POST">
+							<form action="/enviar-correo" method="POST">
 								<p>
 									<label> Nombre y Apellido</label>
-									<input type="text" name="nombrecompleto" required>
+									<input type="text" name="nombrecompleto" required maxlength="50">
 								</p>
 								<p>
 									<label> Email</label>
-									<input type="email" name="email" required>
+									<input type="email" name="email" required maxlength="50">
 								</p>
 								<p>
 									<label>Número de Teléfono</label>
-									<input type="tel" name="telefono" required>
+									<input type="tel" name="telefono" required maxlength="12" minlength="9">
 								</p>
 								<p>
 									<label>Motivo del Mensaje</label>
-									<input type="text" name="affair" required>
+									<input type="text" name="affair" required maxlength="50">
 								</p>
 								<p class="fijo">
 									<label>Mensaje</label>
-									<textarea name="mensaje" id="" cols="30" rows="3" required></textarea>
+									<textarea name="mensaje" id="" cols="30" rows="3" required maxlength="1000"></textarea>
 								</p>
 								<p class="fijo">
 									<button type="submit">
@@ -82,16 +82,13 @@
 						<div class="info-contacto">
 							<h4>Más información</h4>
 							<ul>
-								<li><i class="fa fa-map-marker" aria-hidden="true"> Vitacura</i></li>
+								<li><i class="fa fa-map-marker" aria-hidden="true"> Presidente Kennedy Lateral 7440, oficina 911, Vitacura</i></li>
 								<li><i class="fa fa-phone" aria-hidden="true"> +56930958945</i></li>
 								<li><i class="fa fa-envelope" aria-hidden="true"> info@tudatapartner.cl</i></li>
 							</ul>
-							<p>
-								La comunicación es muy importante! <br>
-								Te Responderemos dentro de 24 horas hábiles.
+							<p>Te Responderemos dentro de 24 horas hábiles.
 							</p>
 							
-
 						</div>
 					</div>
 

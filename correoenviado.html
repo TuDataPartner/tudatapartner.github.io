@@ -1,0 +1,1 @@
+<h1>Correo enviado correctamente</h1>
