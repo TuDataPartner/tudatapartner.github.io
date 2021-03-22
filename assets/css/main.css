@@ -948,7 +948,7 @@ table.alt tbody tr td {
 
 .testimonials .content {
   background: #ffffff;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+   }
   .testimonials .content .credit strong {
     color: #ce1b28; }
 
@@ -2834,21 +2834,21 @@ body.is-menu-visible #menu {
   padding: 10px;
   background-color: transparent;
   border: none;
+  justify-content: center;
 
 }
 
 .content .card2021{
-width: 350px;
-height: 350px;
 border-radius: 8px;
 box-shadow: 0 2px 2px rgba(0, 0,0, 0.2);
 overflow: hidden; /*ajusta la imagen al centro del contenido*/
 margin: 5px;
 text-align: center;
 transition: all 0.25s;
-width: 100%;
+width: 70%;
 height: 100%;
 font-weight: 100;
+
 }
 
 .content .card2021:hover{
@@ -3241,6 +3241,7 @@ body, input, select, textarea {
 
   
   
+  
 
 
   
@@ -3336,4 +3337,16 @@ section .section-title{
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+}
+
+.testimonials .content .card2021:hover{
+background: #ff6f003a
+}
+
+.card2021{
+  min-width:220px ;
+}
+
+.testimonials section{
+  justify-content: center;
 }
