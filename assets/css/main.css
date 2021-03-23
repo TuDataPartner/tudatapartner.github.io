@@ -2880,15 +2880,7 @@ border-radius: 8px;
 
 .inner .special h2{
   margin-top: 120px;
-  font-size: 40px;
-  font-weight: 400;
 }
-
-.inner .special2 {
-  margin-top: 0x;
-  font-size: 40px;
-}
-
 
 #cta .inner {
   font-size: 20px;
@@ -3190,7 +3182,7 @@ font-weight: 400;
   font-size: 20px;
 }
 
-.contacto .logocontacto span{
+.contacto .logocontacto span, .logocontacto span{
   color: #ff6e00;
 }
 
@@ -3276,8 +3268,8 @@ section{
 .container-fluid {
   background-color: #ffffff00;
   width: 100%;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 section .section-title{
@@ -3466,15 +3458,51 @@ background: #ff6f003a
 @media screen and (max-width: 3000px) {
     h1 {
       font-size: 6rem;
-      line-height: 1.3; }
+      line-height: 1.3;
+    font-weight: 500; }
+
+    .logocontacto{
+      font-size: 4rem;
+      line-height: 1.3;
+    font-weight: 500; 
+    }
+    .special .special2{
+      font-size: 3rem;
+      line-height: 1.3;
+    font-weight: 500; 
+    }
 }
 @media screen and (max-width: 1100px) {
   h1 {
     font-size: 4.75rem;
-    line-height: 1.3; }
+    line-height: 1.3;
+    font-weight: 400; }
+
+  .logocontacto{
+      font-size: 3rem;
+      line-height: 1.3;
+    font-weight: 400; 
+    }
+    .special .special2{
+      font-size: 1.7rem;
+      line-height: 1.3;
+    font-weight: 500; 
+    }
 }
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2.75rem;
-    line-height: 1.3; }
+    line-height: 1.3;
+    font-weight: 400; }
+
+  .logocontacto{
+      font-size: 2rem;
+      line-height: 1.3;
+    font-weight: 400; 
+    }
+  .special .special2{
+      font-size: 1.4rem;
+      line-height: 1.3;
+    font-weight: 500; 
+    }
   }
