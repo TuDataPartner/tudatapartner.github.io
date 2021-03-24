@@ -3488,7 +3488,7 @@ background: #00aeff11
     }
     #cta .inner h2{
       font-size: 20px;
-      font-weight: 500;
+      font-weight: 600;
       
     }
 }
@@ -3510,8 +3510,31 @@ background: #00aeff11
     }
     #cta .inner h2{
       font-size: 15px;
-      font-weight: 400;
+      font-weight: 600;
       
     }
   }
 
+/* Trabajando las tarjetas de index */
+section .content h3{
+font-size: 20px;
+font-weight: 550;
+margin-top: 20px;
+}
+
+
+/* Trabajando los software de index */
+
+.logoswf{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.logoswf .softwares img{
+  max-height: 100%;
+  max-width: 90px;
+  margin-bottom: 0px;
+  filter: grayscale(100%);
+}
