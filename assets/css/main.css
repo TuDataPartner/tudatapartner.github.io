@@ -244,7 +244,8 @@ hr {
 .inner {
   margin: 0 auto;
   width: 75rem;
-  max-width: calc(100% - 6rem); }
+  max-width: calc(100% - 6rem); 
+  }
   @media screen and (max-width: 480px) {
     .inner {
       max-width: calc(100% - 3rem); } }
@@ -2841,7 +2842,7 @@ box-shadow: 0 2px 2px rgba(0, 0,0, 0.2);
 overflow: hidden; /*ajusta la imagen al centro del contenido*/
 margin: 5px;
 text-align: center;
-transition: all 0.25s;
+transition: all 0.5s;
 width: 70%;
 height: 100%;
 font-weight: 100;
@@ -3529,12 +3530,32 @@ margin-top: 20px;
   display: flex;
   justify-content: space-around;
   height: 50px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
 }
 .logoswf .softwares img{
-  max-height: 100%;
+  max-height: 50px;
   max-width: 90px;
   margin-bottom: 0px;
-  filter: grayscale(90%);
+  filter: grayscale(100%);
+  display: inline-block;
+  vertical-align: middle;
 }
+
+.wrapper .tituloswf{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wrapper .tituloswf h2{
+  font-size: 35px;
+  font-weight: 500;
+  color: #ff6e00;
+}
+.wrapper .innerindex{
+  border-top: 2px solid #ff6e00;
+  border-bottom: 2px solid #ff6e00;
+}
+
