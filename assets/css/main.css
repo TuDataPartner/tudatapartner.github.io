@@ -3660,7 +3660,7 @@ margin-top: 20px;
   height: 50%;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:3000px){
   section{
     flex-direction: column-reverse;
     align-content: center;
@@ -3673,6 +3673,15 @@ margin-top: 20px;
   .analisis-de-datos{
     text-align: start;
   }
+  .card .card-text{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .card .card-title{
+    font-size: 35px;
+    font-weight: 400;
+  }
+}
 
 @media screen and (max-width:600px){
     section{
@@ -3687,10 +3696,14 @@ margin-top: 20px;
     modal img{
       height: 30%;
     }
+    .card .card-text{
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .card .card-title{
+      font-size: 20px;
+      font-weight: 500;
+    }
   }
-
+ 
   /* cards en servicios */
-
-.card-text{
-  font-size: 15px;
-}
