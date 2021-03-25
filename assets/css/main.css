@@ -3294,7 +3294,6 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #fa8e00 !important;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -3620,7 +3619,7 @@ margin-top: 20px;
   align-items: center;
 }
 
-.modal{
+.modal{ /* Esta es la venta que contiene la imagen y texto */
   width: 90%;
   height: 50%;
   background: #fff;
@@ -3629,11 +3628,15 @@ margin-top: 20px;
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
+  border-radius: 10px;
+  position: relative;
   transition: transform 1s;
   transform: translateY(0%);
-  border-radius: 10px;
   /* overflow: hidden; */
-
+}
+.modal-close{
+  transform: translateY(-200%);
+  
 }
 
 .closecss{
@@ -3650,11 +3653,7 @@ margin-top: 20px;
 
 }
 
-.modal-close{
-  transform: translateY(-200px);
-  position: relative;
-  top: 10%;
-}
+
 
 .modal > img{
   height: 50%;
@@ -3705,5 +3704,20 @@ margin-top: 20px;
       font-weight: 500;
     }
   }
- 
+ .ctamodal{
+  transition-property: background-color, color;
+  transition-duration: 0.4s;
+  border-radius: 20%;
+  color: #ff6e00;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+
+ }
+  .ctamodal:hover {
+   background-color: #ff6e00;
+   color: white;
+   
+  }
+  
   /* cards en servicios */
