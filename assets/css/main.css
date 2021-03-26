@@ -3621,7 +3621,7 @@ margin-top: 20px;
 
 .modal{ /* Esta es la venta que contiene la imagen y texto */
   width: 90%;
-  height: 50%;
+  height: 85%;
   background: #fff;
   text-align: center;
   display: flex;
@@ -3656,7 +3656,7 @@ margin-top: 20px;
 
 
 .modal > img{
-  height: 50%;
+  height: 15%;
 }
 
 @media screen and (max-width:3000px){
@@ -3720,4 +3720,8 @@ margin-top: 20px;
    transform: scale(1.2,1.2);
   }
   
-  /* cards en servicios */
+  /* párrafos en modal */
+  .modal-textos{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
