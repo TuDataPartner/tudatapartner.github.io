@@ -3618,7 +3618,8 @@ margin-top: 20px;
 
 .modal{ /* Esta es la venta que contiene la imagen y texto */
   width: 90%;
-  height: 85%;
+  height: auto;
+  padding: 20px;
   background: #fff;
   text-align: center;
   /* display: flex; */
@@ -3626,9 +3627,9 @@ margin-top: 20px;
   justify-content: space-evenly;
   position: relative;
   border-radius: 10px;
-  position: relative;
   transition: transform 1s;
   transform: translateY(0%);
+  word-wrap: break-word;
   /* overflow: hidden; */
 }
 .modal-close{
@@ -3675,7 +3676,7 @@ margin-top: 20px;
     font-weight: 400;
   }
   .modal > img{
-    height: 30%;
+    height: 200px;
     padding-top: 2%;
   }
   .modal-textos h2{
@@ -3715,7 +3716,7 @@ margin-top: 20px;
       font-weight: 500;
     }
     .modal > img{
-      height: 0%;
+      height: 0px;
     }
     .modal-textos h2{
       font-size: 25px;
@@ -3776,7 +3777,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   text-align: center;
   color:#5a5a5a;
 }
-
 
 li.social-prueba{
   padding: 2px 0px 0px 0px;
