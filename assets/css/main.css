@@ -117,8 +117,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-  text-decoration: underline; }
+  transition: color 0.2s ease-in-out; }
   a:hover {
     text-decoration: none; }
 
@@ -2701,8 +2700,6 @@ body {
   z-index: 10002; }
   #menu input, #menu select, #menu textarea {
     color: #ffffff; }
-  #menu a {
-    color: #ce1b28; }
   #menu strong, #menu b {
     color: #ffffff; }
   #menu h1, #menu h2, #menu h3, #menu h4, #menu h5, #menu h6 {
@@ -3721,3 +3718,55 @@ margin-top: 20px;
   }
   
   /* cards en servicios */
+
+
+/* Social CSS Button*/
+
+#social-test {
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  bottom: 0px;
+  text-align: center;
+}
+
+#social-a{
+  text-align: center;
+  color:#5a5a5a;
+}
+
+
+li.social-prueba{
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.social-prueba {
+list-style-type: none;
+display: inline-block;
+width: 40px;
+height: 40px;
+border: 1px solid rgba(167, 146, 129, 0.4);
+cursor: pointer; 
+margin-left: 10px;
+margin-bottom: 20px;
+transition: ease .3s;
+text-align:center;
+}
+
+
+/* .social-prueba {
+background-color: rgba(13, 255, 65, 0.952);
+
+} */
+  
+
+
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+} 
