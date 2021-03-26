@@ -3759,6 +3759,11 @@ margin-top: 20px;
 
 /* Social CSS Button*/
 
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  text-decoration:none; 
+}
+
 #social-test {
   position: absolute;
   vertical-align: middle;
@@ -3785,20 +3790,13 @@ width: 40px;
 height: 40px;
 border: 1px solid rgba(167, 146, 129, 0.4);
 cursor: pointer; 
-margin-left: 10px;
+margin-left: 20px;
 margin-bottom: 20px;
 transition: ease .3s;
 text-align:center;
+font-size:20px;
+
 }
-
-
-/* .social-prueba {
-background-color: rgba(13, 255, 65, 0.952);
-
-} */
-  
-
-
 
 .social:hover > li {
   opacity: 0.5;
@@ -3807,4 +3805,4 @@ background-color: rgba(13, 255, 65, 0.952);
 .social:hover > li:hover {
   opacity: 1;
 } 
-} 
+
