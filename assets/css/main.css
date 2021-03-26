@@ -3779,8 +3779,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 
 
 li.social-prueba{
-  margin: 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 2px 0px 0px 0px;
 }
 
 .social-prueba {
@@ -3790,7 +3789,7 @@ width: 40px;
 height: 40px;
 border: 1px solid rgba(167, 146, 129, 0.4);
 cursor: pointer; 
-margin-left: 20px;
+margin-left: 10px;
 margin-bottom: 20px;
 transition: ease .3s;
 text-align:center;
