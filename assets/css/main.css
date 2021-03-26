@@ -3618,10 +3618,10 @@ margin-top: 20px;
 
 .modal{ /* Esta es la venta que contiene la imagen y texto */
   width: 90%;
-  height: 50%;
+  height: 85%;
   background: #fff;
   text-align: center;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
@@ -3652,9 +3652,6 @@ margin-top: 20px;
 
 
 
-.modal > img{
-  height: 50%;
-}
 
 @media screen and (max-width:3000px){
   section{
@@ -3676,6 +3673,23 @@ margin-top: 20px;
   .card .card-title{
     font-size: 35px;
     font-weight: 400;
+  }
+  .modal > img{
+    height: 30%;
+    padding-top: 2%;
+  }
+  .modal-textos h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+  }
+  .modal-textos p{
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  .modal{ /* Esta es la venta que contiene la imagen y texto */
+    width: 80%;
   }
 }
 
@@ -3700,6 +3714,22 @@ margin-top: 20px;
       font-size: 20px;
       font-weight: 500;
     }
+    .modal > img{
+      height: 0%;
+    }
+    .modal-textos h2{
+      font-size: 25px;
+      font-weight: 600;
+      
+    }
+    .modal-textos p{
+      font-size: 15px;
+      font-weight: 400;
+      
+    }
+    .modal{ /* Esta es la venta que contiene la imagen y texto */
+      width: 90%;
+    }
   }
  .ctamodal{
   transition-property: background-color, color, transform;
@@ -3716,6 +3746,13 @@ margin-top: 20px;
    color: white;
    transform: scale(1.2,1.2);
   }
+  
+  /* párrafos en modal */
+  .modal-textos{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
   
   /* cards en servicios */
 
@@ -3769,4 +3806,5 @@ background-color: rgba(13, 255, 65, 0.952);
 
 .social:hover > li:hover {
   opacity: 1;
+} 
 } 
