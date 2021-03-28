@@ -702,7 +702,11 @@ table.alt tbody tr td {
     border-radius: 4px;
     height: 100%;
     padding: 3rem;
-    text-align: center; }
+    text-align:justify}
+    
+    .highlights .content header{
+      justify-content: center;
+    }
     .highlights .content .icon {
       font-size: 5rem; }
   .highlights > div > :last-child {
@@ -3805,3 +3809,7 @@ font-size:20px;
   opacity: 1;
 } 
 
+.highlights .content header{
+  justify-content: center;
+  text-align: center;
+}
