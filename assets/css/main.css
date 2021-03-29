@@ -2488,6 +2488,7 @@ body {
 /* Heading */
 #heading {
   -ms-flex-align: center;
+  background-attachment: fixed;
   -ms-flex-pack: center;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
@@ -2503,8 +2504,8 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
-  background-position: center;
+  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/data-science-retail.jpg");
+  background-position:bottom;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
@@ -2646,12 +2647,12 @@ body {
     #heading .testimonials .content .credit strong {
       color: #ce1b28; }
   #heading:before {
-    background: linear-gradient(135deg, #f8b600 0%, #cc00ff21 50%);
+    background: linear-gradient(135deg
+    , #c5d385 0%, #cc00ff9d 70%); 
     content: ' ';
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.6;
     position: absolute;
     top: 0;
     width: 100%;
@@ -3643,7 +3644,6 @@ margin-top: 20px;
 
 .closecss{
   position: absolute;
-  top: 5px;
   right: 5px;
   display: inline-block;
   width: 25px;
@@ -3654,8 +3654,6 @@ margin-top: 20px;
   border-radius: 50%;
 
 }
-
-
 
 
 @media screen and (max-width:3000px){
@@ -3696,6 +3694,9 @@ margin-top: 20px;
   .modal{ /* Esta es la venta que contiene la imagen y texto */
     width: 80%;
   }
+  .closecss{
+    top: 5px;
+  }
 }
 
 @media screen and (max-width:600px){
@@ -3735,6 +3736,9 @@ margin-top: 20px;
     .modal{ /* Esta es la venta que contiene la imagen y texto */
       width: 90%;
     }
+    .closecss{
+      top: 50%;
+    }
   }
  .ctamodal{
   transition-property: background-color, color, transform;
@@ -3746,7 +3750,12 @@ margin-top: 20px;
   padding-right: 5px;
 
  }
-  .ctamodal:hover {
+
+ .card2021 .plain .icon{
+  transition-property: background-color, color, transform;
+  transition-duration: 0.4s;
+ }
+  .ctamodal:hover ,.card2021 .plain .icon:hover{
    background-color: #ff6e00;
    color: white;
    transform: scale(1.2,1.2);
@@ -3813,3 +3822,5 @@ font-size:20px;
   justify-content: center;
   text-align: center;
 }
+
+
