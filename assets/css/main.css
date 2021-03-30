@@ -2858,24 +2858,37 @@ box-shadow: 0 2px 2px rgba(0, 0,0, 0.2);
 overflow: hidden; /*ajusta la imagen al centro del contenido*/
 margin: 5px;
 text-align: center;
-transition: all 0.5s;
+transition-property: all;
 width: 70%;
 height: 100%;
 font-weight: 100;
+transition-duration: 1s;
+background-image: url(6-data-science-skills.jpg);
 }
 
 .content .card2021:hover{
-  transform: translateY(-15px);
+  transform: translateY(-15px); 
   box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+  background-image: url(cuboazul.jpg);
+  transform: scale(1.05,1.05);
+  
+}
+
+.content .card2021 h3{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 7px;
+  text-size-adjust: 100%;
+  color: #ffffff;
+  display: inline-block;
 }
 
 .content .card2021 img{
 width: 200px;
 height: 220px;
 margin: 10px;
-border-radius: 8px;
-
-
+border-radius: 12px;
 }
 
 .content .card2021 h4{
@@ -2886,14 +2899,7 @@ border-radius: 8px;
   text-size-adjust: 100%;
   color: #ff6e00;
 }
-.content .card2021 h3{
-  margin-top: 5px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 7px;
-  text-size-adjust: 100%;
-  color: #3d3c3c;
-}
+
 
 .inner .special h2{
   margin-top: 120px;
@@ -3358,9 +3364,6 @@ section .section-title{
 	transition: .5s all ease;
 }
 
-.testimonials .content .card2021:hover{
-background: #00aeff11
-}
 
 .card2021{
   min-width:220px ;
