@@ -3756,6 +3756,19 @@ margin-top: 20px;
     .closecss{
       top: 50%;
     }
+    .content .card2021{
+      border-radius: 8px;
+      box-shadow: 0 2px 2px rgba(0, 0,0, 0.2);
+      overflow: hidden; /*ajusta la imagen al centro del contenido*/
+      margin: 5px;
+      text-align: center;
+      transition-property: all;
+      width: 70%;
+      height: 100%;
+      font-weight: 100;
+      transition-duration: 1s;
+      background-image: url(6-data-science-skills.jpg);
+      }
   }
  .ctamodal{
   transition-property: background-color, color, transform;
