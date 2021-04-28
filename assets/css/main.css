@@ -3978,3 +3978,16 @@ transform: translateY(0);
 transition-delay: 0.6s;
 
 }
+
+.contenedor_dashboard{
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.titulo_dashboard{
+  margin-top: 5%;
+}
