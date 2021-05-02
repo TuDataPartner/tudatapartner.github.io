@@ -3961,7 +3961,7 @@ object-fit: cover;
 .containerdb .box:hover .content h2{
 
   transform: translateY(0);
-  transition-delay: 0.6s;
+  transition-delay: 0.2s;
   }
 
 .containerdb .box .content p{
@@ -3975,7 +3975,7 @@ font-size: 14px;
 .containerdb .box:hover .content p{
 
 transform: translateY(0);
-transition-delay: 0.6s;
+transition-delay: 0.2s;
 
 }
 
