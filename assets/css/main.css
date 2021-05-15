@@ -3993,3 +3993,29 @@ transition-delay: 0.2s;
 .titulo_dashboard{
   margin-top: 5%;
 }
+
+
+
+/* Boton css Ver mas  */
+.myButton {
+  position: relative;
+	box-shadow: -1px 0px 0px 0px #9fb4f2;
+	background-color:#081f47;
+	border-radius:2px;
+	border:1px solid #0c0d0e;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:8px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin-bottom: 0px;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
